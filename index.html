@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Control Panel — Fallout Style</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <section class="panel">
+      <h1 class="title">Vault Control Panel</h1>
+      <div class="dial">
+        <button id="nukeBtn" class="nuke-btn" aria-label="Activar Explosión">LAUNCH</button>
+      </div>
+      <p class="hint">Use the button responsibly</p>
+    </section>
+  </main>
+
+  <!-- canvas para la animación -->
+  <canvas id="blastCanvas"></canvas>
+
+  <!-- frase final -->
+  <div id="finalMessage" class="final-message" aria-hidden="true">
+    <p>War. War never Changes.</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
